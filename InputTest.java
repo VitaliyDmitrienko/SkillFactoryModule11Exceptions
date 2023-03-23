@@ -1,3 +1,5 @@
+// Module 11. Exceptions. Exercise 11.7.2. "InputTest"
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;

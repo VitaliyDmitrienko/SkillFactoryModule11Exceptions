@@ -1,3 +1,5 @@
+// Module 11. Exceptions. Exercise 11.7.1. "DivisionNumArray"
+
 import java.util.ArrayList;
 import java.util.List;
 
