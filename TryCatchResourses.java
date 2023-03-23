@@ -1,11 +1,17 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class TryCatchResourses {
 
-    public static void main(String[] args) throws MyException {
-        input();
+    public static void main(String[] args) {
+        try {
+            input();
+        } catch (MyException e) {
+            System.out.println (e.getMessage ());
+            System.out.println ( Arrays.toString ( e.getStackTrace () ) );
+        }
     }
 
 //    public String input() throws MyException {
